@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Adoption Application</title>
+      <link rel="stylesheet" href="form.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script>
+      $(document).ready(function(){
+        $(".btn").click(function(){
+          $("input[type='text'],textarea").val("");
+        });
+      });
+      </script>
+
+
+  </head>
+
+    <body>
+      <header>
+        <nav>
+          <ul class="nav">
+            <div id="logo">
+            <li><a href = "home.html" target = "_self"> <img src = "images/logo.png" width="180" height="180" alt = "Noah's Ark"></a></li>
+            </div>
+            <div id="bars">
+            <li><a class="link" href="adoption.html"> Adoption</a></li>
+            <li><a class="link" href="volunteer.html"> Volunteer</a></li>
+            <li><a class="link" href="reasources.html"> Reasources</a></li>
+          </div>
+          </ul>
+        </nav>
+      </header>
+
+    <main>
+
+        <h1> Application </h1>
+
+    <form action="/action_page.php">
+      <div class="form">
+      <label for="e-mail"> What's the animal's name you are applying for?</label>
+      <input type="text" name="animalname">
+
+      <label for="why"> Why are you interested in adopting this animal?</label>
+      <input type="text" name="why">
+
+      <label for="fname">First Name</label>
+      <input type="text" name="firstname">
+
+      <label for="lname">Last Name</label>
+      <input type="text" name="lastname">
+
+      <label for="e-mail">E-mail</label>
+      <input type="text" name="e-mail">
+
+      <label for="phone">Phone Number</label>
+      <input type="text" name="phone">
+
+      <label for="age">Age (Adopters must be over the age of 18)</label>
+      <input type="text" name="age">
+
+      <label for="address">Home Address</label>
+      <input type="text" name="address">
+
+      <label for="address1">Address 1</label>
+      <input type="text" name="address1">
+
+      <label for="address 2">Address 2</label>
+      <input type="text" name="address2">
+
+      <label for="city">City</label>
+      <input type="text" name="city">
+
+      <label for="state">State</label>
+      <input type="text" name="state">
+
+      <label for="country">Country</label>
+      <input type="text" name="Country">
+
+      <label for="living">Do you rent or own your own home?</label> <br>
+      <br />
+      <input type="checkbox" name="rent" value="rent">
+      <label for="rent"> Rent</label><br>
+      <input type="checkbox" name="home" value="home">
+      <label for="home"> Home</label><br>
+      <br />
+
+      <label for="hometype">Home Type?</label> <br>
+      <br />
+      <input type="checkbox" name="apartment" value="apartment">
+      <label for="apartment"> Apartment</label><br>
+      <input type="checkbox" name="house" value="house">
+      <label for="house"> House</label><br>
+      <input type="checkbox" name="mobilehome" value="mobilehome">
+      <label for="mobilehome"> Mobile Home</label><br>
+      <input type="checkbox" name="condo" value="condo">
+      <label for="condo"> Condo</label><br>
+      <br />
+      <label for="length">Years & months at current address</label>
+      <input type="text" name="length">
+
+      <label for="landlord">Landlord's or Leasing Company's name (if applicable)</label>
+      <input type="text" name="landlord">
+
+      <label for="employer">Employer</label>
+      <input type="text" name="employer">
+
+      <label for="children">Are there children living in the home?</label>
+      <input type="text" name="children">
+
+      <label for="age"> What are their ages?</label>
+      <input type="text" name="age">
+
+      <label for="otherpets">Are there other pets living in the home?</label>
+      <input type="text" name="otherpets">
+
+      <label for="otherpets1">How many and what type?</label>
+      <input type="text" name="otherpets1">
+      </div>
+
+      <input type="submit" value="Submit">
+    </form>
+    </main>
+
+  </body>
+  <footer>
+      <p id="p1">Noah's Ark Animal Sanctuary</p>
+  </footer>
+
+</html>

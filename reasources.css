@@ -1,0 +1,219 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Natom Pro";
+  background:#E4E4E4;
+  width: 960px;
+  min-height: 100vh;
+  margin: auto;
+}
+#content {
+  overflow: auto;
+  height: 100%;
+}
+
+nav ul li{
+  display: inline;
+  margin-left: 50px;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  position: relative;
+  top: -175px;
+}
+
+
+header{
+  background-color: #14284B;
+  padding: 30px 0px;
+  max-height: 32px;
+}
+
+#logo {
+  position: relative;
+  top: 70px;
+  left: -10px;
+}
+
+#bars {
+  position: relative;
+  left: 260px;
+}
+
+.link { color: white }
+.link:hover { color: #EF572E; }
+
+
+h1 {
+  font-family: "Flood STD";
+  font-size: 36px;
+  padding-top: 10px;
+  color: #14284B;
+  text-align: center;
+  background-color: white;
+  border-top: 10px;
+  border-color: #33CCFF;
+  position: relative;
+  top:12px;
+}
+
+
+h2 {
+  font-family: "Natom Pro";
+  text-align: center;
+  color: white;
+  background-color: #FF605C;
+  width: 100%;
+  max-width: 300px;
+  margin: 100px auto 80px;
+  padding: 16px;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  top:-77px;
+  box-sizing: border-box;
+  border: 3px solid #f1f1f1;
+}
+
+#one, #two {
+  font-family: "Helvetica", sans-serif;
+  font-size: 12px;
+  line-height: 1.4em;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 100px auto 80px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 3px solid #f1f1f1;
+}
+
+#one {
+  color: white;
+  background-color: #14284B;
+  max-width: 300px;
+  float: left;
+  position: absolute;
+  top: 122px;
+}
+
+#vp {
+  position: relative;
+  margin-left: 10px;
+  max-width: 650px;
+  background-color: #FFCC00;
+}
+
+h4 {
+  font-family: "Flood STD";
+  text-align: center;
+  font-size: 24px;
+  color: #14284B;
+  background-color:transparent;
+  width: 100%;
+  max-width: 300px;
+  margin: 100px auto 80px;
+  padding: 16px;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  top: -249px;
+  left: 255px;
+}
+
+.pvaccines1 {
+  font-family: "Helvetica";
+  position: relative;
+  top: -98px;
+  left: 16px;
+  line-height: 1.4em;
+  font-size: 14px;
+}
+
+#canan {
+  position: relative;
+  top: -199px;
+  left: -35px;
+}
+
+.cvaccines1 {
+  font-size: 14px;
+  font-family: "Helvetica";
+  position: relative;
+  top: -44px;
+  left: -286px;
+  line-height: 1.4em;
+  width: 142%;
+}
+
+#kitan {
+  position: relative;
+  top: -140px;
+  left: -337px;
+}
+
+.kvaccines1 {
+  font-size: 14px;
+  font-family: "Helvetica";
+  position: relative;
+  top: 17px;
+  left: -584px;
+  line-height: 1.4em;
+  width: 162%;
+}
+
+.fvaccines1 {
+  font-size: 14px;
+  font-family: "Helvetica";
+  position: relative;
+  top: 76px;
+  left: -585px;
+  line-height: 1.4em;
+  width: 142%;
+}
+
+h3 {
+  background-color: white;
+  color: #FF605C;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 100px auto 80px;
+  padding: 16px;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  top:-118px;
+  box-sizing: border-box;
+  border: 3px solid #f1f1f1;
+}
+
+.anhosp1 {
+  font-size: 12px;
+  font-family: "Helvetica";
+  position: relative;
+  top: 166px;
+  left: -593px;
+  line-height: 1.4em;
+  width: 158%;
+}
+
+.pfoot {
+ position: relative;
+ left: -241px;
+ top: 0px;
+}
+
+  footer{
+    background-color: #14284B;
+    color: #33CCFF;
+    padding:20px 0px;
+    position: relative;
+    top:240px;
+    max-height: 7px;
+  }
